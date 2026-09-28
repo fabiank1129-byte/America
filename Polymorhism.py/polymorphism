@@ -20,7 +20,7 @@ class Student:
         return sum(self.__gpa_for_semesters) / len(self.__gpa_for_semesters)
 
     def is_in_good_standing(self):
-        return f"{self.name} is a student."
+        return f"{self.name} is a student."  
 
 
 class UndergraduateStudent(Student):
